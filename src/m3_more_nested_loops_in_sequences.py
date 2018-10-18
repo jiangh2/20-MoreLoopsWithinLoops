@@ -82,17 +82,10 @@ def largest_number(seq_seq):
                     largest = seq_seq[i][j]
                 elif largest < seq_seq[i][j]:
                     largest = seq_seq[i][j]
-
     if largest == None:
         return None
     else:
         return largest
-
-
-
-
-
-
     # ------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
